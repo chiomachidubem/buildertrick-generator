@@ -79,10 +79,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Codemantix Collective Bootcamp — Become a job-ready developer" },
       { name: "description", content: "A mentor-led tech bootcamp for beginners and career switchers. Learn Web Development, UI/UX and Product through real-world projects. Apply to the next cohort." },
-      { property: "og:title", content: "Codemantix Collective Bootcamp" },
-      { property: "og:description", content: "Mentor-led bootcamp turning beginners into job-ready developers and designers through real-world projects." },
+      { property: "og:title", content: "Codemantix Collective Bootcamp — Become a job-ready developer" },
+      { property: "og:description", content: "A mentor-led tech bootcamp for beginners and career switchers. Learn Web Development, UI/UX and Product through real-world projects. Apply to the next cohort." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Codemantix Collective Bootcamp — Become a job-ready developer" },
+      { name: "twitter:description", content: "A mentor-led tech bootcamp for beginners and career switchers. Learn Web Development, UI/UX and Product through real-world projects. Apply to the next cohort." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1397f4f3-ecb4-4efa-b252-c8ab3e7ed336/id-preview-46519113--6f920081-47e1-4706-9eef-49a983fd1f77.lovable.app-1784200067173.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1397f4f3-ecb4-4efa-b252-c8ab3e7ed336/id-preview-46519113--6f920081-47e1-4706-9eef-49a983fd1f77.lovable.app-1784200067173.png" },
     ],
     links: [
       {
